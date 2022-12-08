@@ -54,6 +54,12 @@ input{
     'opsz' 24;
 }
 /* all */
+main .left::-webkit-scrollbar,
+main .right::-webkit-scrollbar {
+    display: none;
+}
+
+/*  */
 main .left,
 main .content,
 main .right{
